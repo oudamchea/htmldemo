@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:latest
 
 RUN apt update && apt -y install apache2
 WORKDIR /var/www/html
